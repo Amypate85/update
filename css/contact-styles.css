@@ -1,0 +1,193 @@
+@font-face {
+	src: local("manropelight"),
+		local(""),
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+:root {
+	 --gold: #ede051;
+	--lightgold: #ede051a4;
+	--nav: #e9de65fb;
+
+	--pink: #e06969;
+	--lightpink: #e06969a1;
+
+	--dark:
+}
+
+body {
+    font-family: Arial;
+     
+}
+
+.form-container {
+    background: ;
+    border: #e2ddd2 1px solid;
+    padding: 20px;
+    border-radius: 2px;
+    
+}
+
+.input-row{
+    color: red;
+    }
+
+.input-row {
+    margin-bottom: 20px;
+}
+
+.input-row label {
+    color: #ede051;
+}
+
+.input-field {
+    width: 85%;
+    border-radius: 2px;
+    padding: 10px;
+    border: #e0dfdf 1px solid;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+
+.span-field {
+    font: Arial;
+    font-size: small;
+    text-decoration: none;
+}
+
+.btn-submit {
+    padding: 10px 60px;
+    border: #fff 2px solid;
+    color: #ede051;
+    font-size: 0.9em;
+    border-radius: 2px;
+    cursor: pointer;
+    background: none;
+}
+
+.btn-submit:hover{
+    background-color: #fff;
+     color: black;
+}
+
+.errorMessage {
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.successMessage {
+    background-color: #9fd2a1;
+    border: #91bf93 1px solid;
+    padding: 5px 10px;
+    color: #3d503d;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.info {
+    font-size: .8em;
+    color: #e66262;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.active{
+	border-bottom: 2px solid var(--pink);
+    padding-bottom: 5px;
+ 
+}
+
+ul{
+	display: flex;
+ align-items: end;
+	flex-direction: row;
+	list-style: none;
+    width: 100vw;
+
+
+}
+
+
+nav{
+	position: ;
+	background-color: var(--nav);
+    width: 100vw;
+
+}
+
+
+li{
+	width: 100%;
+    padding:  .6em .85em;
+    text-align: end;
+ }
+
+
+nav a {
+	
+	text-decoration: none;
+	color: var(--pink);
+	width: 100vw;
+	font-weight: bold;
+	letter-spacing: 1.5;
+ 	font-size: .85rem;
+ 
+	
+
+}
+
+
+
+
+.hero {
+
+	background-image: url(../img/hero.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+
+}
+
+.form-container{
+    Width: 50vw;
+    display: block;
+    Margin: 4em auto;
+}
+
+
+
+
+main{
+    display: flex;
+    margin: 0 auto;
+}
+
+.side{
+    background-color: black;
+}
